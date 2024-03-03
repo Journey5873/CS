@@ -4,7 +4,7 @@ HTTP (HyperText Transfer Protocol) is a communication protocol used for exchangi
 
 It is an application layer protocol that runs on top of other layers in the network [protocol](https://www.cloudflare.com/learning/network-layer/what-is-a-protocol/) stack. Clients request resources using HTTP, and these requests are transmitted to the server through the TCP/IP protocol. The server then responds using HTTP, and the response, transmitted through the TCP/IP protocol, reaches the client.
 
-## Request
+## 📤 Request
 
 : Client to Server
 
@@ -32,7 +32,7 @@ A typical HTTP request contains:
     The body of an HTTP request contains any information being submitted to the web server
     
 
-## Response
+## 📨 Response
 
 : Server to Client
 
@@ -52,4 +52,32 @@ A typical HTTP response contains:
     
 3. optional HTTP body
     
-    Successful HTTP responses requests generally have a body which contains the requested information.
+    Successful HTTP responses requests generally have a body which contains the requested information. 
+    
+
+## 🔑 Key features of HTTP
+
+1. **Client-Server**
+    
+    The client-server model is a distributed application that handles tasks separately. The client sends a request for resources, and the server responds to that request. This separation of concerns allows for more efficient and scalable systems.
+    
+2. **Stateless**
+    
+    Each request that a client sends to a server is independent. The server does not save the state of the client. This simplicity contributes to its scalability.
+    
+3. **Connectionless**
+    
+    Each request and response in HTTP is independent of previous requests and responses. After the server processes a request and sends a response, the connection is closed.
+    
+4. **Scalability**
+    
+    The stateless nature of HTTP makes it easier to scale web applications. Since each request is independent, servers can handle a large number of concurrent requests without the need to maintain session information.
+    
+
+📂 Reference
+
+[What is HTTP? | Cloudflare](https://www.cloudflare.com/learning/ddos/glossary/hypertext-transfer-protocol-http/)
+
+[HTTP 프로토콜 알고 쓰자!](https://callmedevmomo.medium.com/http-프로토콜-알고-쓰자-c0c8d14f18ed)
+
+[HTTP 프로토콜의 특징](https://velog.io/@leesomyoung/HTTP-프로토콜의-특징)
