@@ -4,7 +4,7 @@
 
 In computing, a cache is storage that stores data so that future requests for the same data can be retrieved faster. Caching is the process of storing copies of files in that cache or temporary storage location, so that they can be accessed more quickly.
 
-❕Cache hit: If the requested data is in the cache, it retrieves the data right away from the cache.
+❕Cache hit: If the requested data is in the cache, it retrieves the data right away from the cache.<br>
 ❕Cache miss: If the requested data is not in the cache, it retrieves the data from the database (DB).
 
 🚨 When using a cache, the common issue is the problem of data consistency.
